@@ -37,19 +37,19 @@ print( 'THE HCF OF',a,'AND',x,'ARE',o,'.')
 ##FOR THREE OR MORE NUMBER OF INTEGERS
 ## x = ENTER A NUMBER
 divisors=()
-for i in range(1,x):
+for i in range(1,x+1):
     if x%i == 0:
      divisors=divisors+(i,)
     ## //print( 'Divisors of',x,'are',divisors)
 ## a = ENTER A NUMBER
 divisorss=()
-for j in range(1,a):
+for j in range(1,a+1):
     if a%j == 0:
      divisorss=divisorss+(j,)
      ##// print ( 'Divisors of',a,'are', divisorss)
 ## b = ENTER A NUMBER
 divisorsss=()
-for k in range(1,b):
+for k in range(1,b+1):
     if b%k == 0:
      divisorsss=divisorsss+(k,)
      ##// print ( 'Divisors of',b,'are', divisorsss)
